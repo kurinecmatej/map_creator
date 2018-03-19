@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jScrollPane1" alignment="0" pref="294" max="32767" attributes="0"/>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jScrollPane1" min="-2" pref="392" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+              <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="16" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea1">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="              MAP CREATOR POMOCN&#xcd;K&#xa;&#xa;NOV&#xdd; SKEN - tla&#x10d;idlo pre za&#x10d;atie nov&#xe9;ho&#xa;&#x9;  skenovania prostredia. Pre &#xa;&#x9;  za&#x10d;atie skenovania je&#xa;&#x9;  potrebn&#xe9; ma&#x165; pripojen&#xe9;&#xa;&#x9;  skenovacie zariadenie.&#xa;&#xa;Nov&#xfd; projekt - S&#xfa;bor -&gt; Nov&#xfd; (Ctrl + N)&#xa;&#xa;Otvori&#x165; existuj&#xfa;ci projekt - S&#xfa;bor -&gt; Otvori&#x165; (Ctrl + O)&#xa;&#xa;Ulo&#x17e;i&#x165; projekt - S&#xfa;bor -&gt; Ulo&#x17e;i&#x165; ako (Ctrl + S)&#xa;&#xa;Obnovi&#x165; predvolen&#xe9; nastavenia - &#xa;          Uprav -&gt; Obnovi&#x165; predvolen&#xe9; nastavenia&#xa;&#xa;&#xa; NASTAVENIA FARIEB:&#xa;    Nastavenia -&gt; V&#xfd;ber komponentu pre nastavenie&#xa;&#x9;      farby&#xa;&#xa;NASTAVENIA ZOBRAZENIA:&#xa;    Zobraz -&gt; V&#xfd;ber polo&#x17e;ky, ktor&#xe1; sa m&#xe1;&#xa;&#x9;zobrazi&#x165; / skry&#x165;&#xa;&#xa;MO&#x17d;NOSTI HLAVN&#xc9;HO OKNA:&#xa;&#xa;    Celoobrazovkov&#xfd; re&#x17e;im - Zobrazenie mapy v novom &#xa;    okne, ktor&#xe9; sa zobrazen&#xe9; na cel&#xfa; obrazovku&#xa;&#xa;    Zoom - nastavenie ve&#x13e;kosti vykreslenej mapy&#xa;       - pomocou slide bar-u&#xa;       - pomocou tla&#x10d;idiel + / -&#xa;"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ok"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
