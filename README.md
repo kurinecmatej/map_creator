@@ -6,7 +6,11 @@ measuring distances of objects that are in front of him.
 Next based on measured values it creates map of environment and 
 draw this map on user interface. 
 
-All source code and documentation is included in project folder. Documentation contains also
-demov from measuring and creating environment map.
+Project structure:
+
+ 1. bin - contains runable files for 32 and 64 bit OS. You can run it by command java -jar MapCreator.jar.
+    Just UI will display, but you need hardware for scanning.
+ 2. doc - contains documentation with examples of running application
+ 3. src - all source codes
 
 Hope you like it... :-)
